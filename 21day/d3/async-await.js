@@ -40,7 +40,7 @@
 //     .catch((error) => {
 //         console.error(error);
 //     });
-
+// 4.Promise + Async Await
 function simulateAsyncAPI(text,timeout){
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
